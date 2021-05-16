@@ -1,5 +1,6 @@
 failover
 failover lan unit primary
+failover key cisco123
 failover lan interface LANFAIL GigabitEthernet0/5
 failover link STATE GigabitEthernet0/6
 failover interface ip LANFAIL 10.1.1.1 255.255.255.0 standby 10.1.1.2
